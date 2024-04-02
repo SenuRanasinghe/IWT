@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/joinStyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../Navbar/CSS/navStyle.css">
+    <link rel="stylesheet" href="CSS/sucessStyle.css">
+
+    <title>Signup Form </title>
+</head>
+<body>
+<header>
+    <div class="menu1">
+        <a href="../HOME/homepage.html">
+            <input type="button" class="btn" id="bTN1" value="Home">
+        </a>
+
+        <a href="../Tours/Tours.html">
+            <input type="button" class="btn" id="bTN2" value="Tours">
+        </a>
+
+        <a href="../Offers/offers.html">
+            <input type="button" class="btn" id="bTN3" value="Offers">
+        </a>
+
+        <a href="../Services/services.html">
+            <input type="button" class="btn" id="bTN4" value="Services">
+        </a>
+
+
+    </div>
+    <div class="menu2">
+        <input type="button" class="btn1"  id="bTN5"  value="Log in">
+
+        <a href="../Join/join.html">
+            <input type="button" class="btn1"  id="bTN6" value="Join">
+        </a>
+
+    </div>
+</header>
+<div class="container">
+    <h1>Registration</h1>
+
+    <form action="#">
+        <div class="form first">
+            <div class="details personal">
+                <span class="title">Personal Details</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>First Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>NIC Number</label>
+                        <input type="number" placeholder="Enter your NIC" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date of Birth</label>
+                        <input type="date" placeholder="Enter birth date" required>
+                    </div>
+
+
+                    <div class="input-field">
+                        <label>Mobile Number</label>
+                        <input type="number" placeholder="Enter mobile number" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Gender</label>
+                        <select required>
+                            <option disabled selected>Select gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="details ID">
+                <span class="title">Address Details</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>House number</label>
+                        <input type="text" placeholder="Enter House number" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Street Name</label>
+                        <input type="text" placeholder="Enter Street Name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Town</label>
+                        <input type="text" placeholder="Enter Town" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Password ID">
+                <span class="title">Password Details</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter password" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label> Retype - Password</label>
+                        <input type="password" placeholder="Re-Enter password" required>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">continue</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>
+<div class="successContent">
+    <div class="popup" id="success">
+        <div class="popup-content">
+            <div class="imgbox">
+                <img src="Images/checked.png" alt="" class="img">
+            </div>
+            <div class="title">
+                <h3>Success!</h3>
+            </div>
+            <p class="para">Your account has been created successfully</p>
+            <br>
+            <p class="para">Redirect to the homepage </p>
+            <br>
+            <p class="para" id="countdown"></p>
+        </div>
+    </div>
+</div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,700;1,500&family=Cherry+Bomb+One&family=Comfortaa&family=Dancing+Script:wght@700&family=Diphylleia&family=Itim&family=Josefin+Sans:ital@1&family=Kumbh+Sans:wght@300&family=Lato:ital,wght@1,100;1,300&family=League+Spartan:wght@400;700&family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@200&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Outfit:wght@500&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,200;1,500;1,700&family=Quicksand:wght@700&family=Raleway:ital,wght@1,300;1,500&family=Roboto+Slab:wght@100;200&family=Roboto:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,500;1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,700;1,500&family=Cherry+Bomb+One&family=Comfortaa&family=Dancing+Script:wght@700&family=Diphylleia&family=Itim&family=Josefin+Sans:ital@1&family=Kumbh+Sans:wght@300&family=Lato:ital,wght@1,100;1,300&family=League+Spartan:wght@400;700&family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@200&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Outfit:wght@500&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,200;1,500;1,700&family=Quicksand:wght@700&family=Raleway:ital,wght@1,300;1,500&family=Roboto+Slab:wght@100;200&family=Roboto:wght@300;400;500&family=Tilt+Neon&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,500;1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,700;1,500&family=Cherry+Bomb+One&family=Comfortaa&family=Dancing+Script:wght@700&family=Diphylleia&family=Itim&family=Josefin+Sans:ital@1&family=Kumbh+Sans:wght@300&family=Lato:ital,wght@1,100;1,300&family=League+Spartan:wght@400;700&family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@200&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Outfit:wght@500&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,200;1,500;1,700&family=Quicksand:wght@700&family=Raleway:ital,wght@0,400;1,300;1,500&family=Roboto+Slab:wght@100;200&family=Roboto:wght@300;400;500&family=Tilt+Neon&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,500;1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,700;1,500&family=Cherry+Bomb+One&family=Comfortaa&family=Dancing+Script:wght@700&family=Diphylleia&family=Itim&family=Josefin+Sans:ital@1&family=Kumbh+Sans:wght@300&family=Lato:ital,wght@1,100;1,300&family=League+Spartan:wght@400;700&family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@200&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Outfit:wght@500&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,200;1,500;1,700&family=Quicksand:wght@700&family=Raleway:ital,wght@0,400;1,300;1,500&family=Roboto+Slab:wght@100;200;700&family=Roboto:wght@300;400;500&family=Tilt+Neon&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,500;1,500&family=Varela+Round&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.task{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(49, 2, 48),rgb(100, 2, 95));
+}
+.taskbar{
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    filter:drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.19));
+}
+.taskbar .btn{
+    padding: 0.7rem 4rem;
+    font-size: 1.2rem;
+    font-family: 'Tilt Neon', cursive;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(67, 2, 43), rgb(154, 4, 119));
+}
+.taskbar .btn:hover{
+    color: rgb(32, 2, 25);
+}
+
+.container{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.1)
+    ) ,
+    url("../Images/1.png") no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(5rem, 2.8vw, 5rem);
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dummy-container{
+    height: 55vh;
+    background-color: #cf618e;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.tabs{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 450px;
+    background-color: #fff;
+    padding: 20px 30px;
+    overflow: hidden;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.tabs .tab-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs .tab-header > div {
+    width: calc(100% / 4);
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.tabs .tab-header > div > i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tabs .tab-header > div.active {
+    color:  #00acee;
+}
+
+.tabs .tab-indicator {
+    position: relative;
+    width: calc(100%/4);
+    height: 5px;
+    background: #00acee;
+    left: 0;
+    border-radius: 5px;
+}
+
+.tabs .tab-body{
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 10px 5px;
+}
+
+.tabs .tab-body > div {
+    position: absolute;
+    top: 200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+}
+
+.tabs .tab-body > div.active{
+    top: 0;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 0;
+}
+
+.time-box{
+    margin-top: -25px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typewriter {
+    width: 21.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    animation: cursor 1s step-start infinite,
+    text 5s steps(18) alternate infinite;
+    color: white;
+}
+
+@keyframes cursor {
+    0%, 100% {
+        border-color: #212121;
+    }
+}
+
+@keyframes text {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 23.5ch;
+    }
+}

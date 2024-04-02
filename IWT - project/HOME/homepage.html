@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/homeStyle.css">
+    <link rel="stylesheet" href="../Navbar/CSS/navStyle.css">
+    <title>Airline</title>
+</head>
+<body>
+    <header>
+        <div class="menu1">
+            <a href="homepage.html">
+                <input type="button" class="btn" id="bTN1" value="Home">
+            </a>
+
+            <a href="../Tours/Tours.html">
+                <input type="button" class="btn" id="bTN2" value="Tours">
+            </a>
+
+            <a href="../Offers/offers.html">
+                <input type="button" class="btn" id="bTN3" value="Offers">
+            </a>
+
+            <a href="../Services/services.html">
+                <input type="button" class="btn" id="bTN4" value="Services">
+            </a>
+
+
+        </div>
+        <div class="menu2">
+        <input type="button" class="btn1"  id="bTN5"  value="Log in">
+
+            <a href="../Join/join.html">
+                <input type="button" class="btn1"  id="bTN6" value="Join">
+            </a>
+
+        </div> 
+    </header>
+    <div class="container">
+        <div class="typewriter">Welcome to Wings AirTickets</div>
+    </div>
+    <div class="dummy-container">
+        <div class="tabs">
+            <div class="tab-header">
+                <div class="active Book"> Book </div>
+                <div class="Flight"> Flight status  </div>
+                <div class="Check" > Checking </div>
+                <div class="Trips" > My Trips </div>
+            </div>
+            <div class="tab-indicator"></div>
+            <div class="tab-body">
+                <div class="active Book">
+                    <h2>Book</h2>
+                    <div class="time-box">
+                        <div>
+                            <h4>From *</h4>
+                            <input type="text" class="from" placeholder="Start Country">
+                        </div>
+                        <div> - </div>
+                        <div>
+                            <h4>To *</h4>
+                            <input type="text" class="to" placeholder="Destination Country">
+                        </div>
+                    </div>
+
+                    <h4>Date</h4>
+                    <input type="date" class="date">
+
+                    <h4>Travelers</h4>
+
+                    <label for="adultNum">Adults</label>
+                    <input type="number" id="adultNum" name="adultNum">
+
+                    <label for="childNum">Child</label>
+                    <input type="number" id="childNum" name="childNum"><br><br>
+                    <button type="submit">Book</button>
+                </div>
+
+                <div class="Flight">
+                    <h2>Flight</h2>
+                    <div class="time-box">
+                        <div>
+                            <h4>From *</h4>
+                            <input type="text" class="from" placeholder="Start Country">
+                        </div>
+                        <div> - </div>
+                        <div>
+                            <h4>To *</h4>
+                            <input type="text" class="to" placeholder="Destination Country">
+                        </div>
+                    </div>
+
+                    <h4>Date</h4>
+                    <input type="date" class="date">
+
+                    <h4>Flight Number </h4>
+                    <input type="number" id="flightNum" name="fightNum">
+
+                    <button type="submit">Search</button>
+                </div>
+
+                <div class="Check">
+                    <h2>Check</h2>
+                    <label for="confirmNum">Confirmation or Ticket number</label>
+                    <br>
+                    <input type="text" id="confirmNum" name="confirmNUm">
+                    <br>
+                    <label for="nicNum">NIC number</label>
+                    <br>
+                    <input type="text" id="nicNum" name="nicNUm">
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div class="Trips">
+                    <h2>Trips</h2>
+                    <label for="confirmNum1">Confirmation or Ticket number</label>
+                    <br>
+                    <input type="text" id="confirmNum1" name="confirmNUm">
+                    <br>
+                    <label for="nicNum1">NIC number</label>
+                    <br>
+                    <input type="text" id="nicNum1" name="nicNUm">
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/homeScript.js"></script>
+</body>
+</html>

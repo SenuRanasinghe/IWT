@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,700;1,500&family=Cherry+Bomb+One&family=Comfortaa&family=Dancing+Script:wght@700&family=Diphylleia&family=Itim&family=Josefin+Sans:ital@1&family=Kumbh+Sans:wght@300&family=Lato:ital,wght@1,100;1,300&family=League+Spartan:wght@400;700&family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:wght@200&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Outfit:wght@500&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,200;1,500;1,700&family=Quicksand:wght@700&family=Raleway:ital,wght@0,400;1,300;1,500&family=Roboto+Slab:wght@100;200;700&family=Roboto:wght@300;400;500&family=Tilt+Neon&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,500;1,500&family=Varela+Round&display=swap');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("../Images/OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .topic h1{
+    color: purple;
+    font-family: 'Tilt Neon', cursive;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      font-size: 50px;
+  }
+  .sin{
+    display: flex;
+    justify-content:left ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #070707;
+  }
+  .usa{
+    display: flex;
+    justify-content:right ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px; 
+  }
+  .ban{
+    display: flex;
+    justify-content:right ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+   
+  }
+  .in{
+    display: flex;
+    justify-content:left ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    
+  }
+  .mal{
+    display: flex;
+    justify-content:left ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    
+  }
+  .chi{
+    display: flex;
+    justify-content:left ;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    
+  }
+
+.bg{
+
+    display: flex;
+    width:80%;
+    height: 80%;
+    margin: 0 auto;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bg.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #070707;
+}
+
+img{
+    height: 230px;
+    width: 350px;
+}
+.topic{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+
+  color: #a60b202a; 
+  
+}
+.img1 p,
+.img p{
+  margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.img1 h4,
+.img h4{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+
+
+
